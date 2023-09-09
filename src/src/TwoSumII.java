@@ -10,7 +10,7 @@ public class TwoSumII {
                 } else if (numbers[mid] > target - numbers[i]) {
                     high = mid - 1;
                 } else {
-                    low = mid + 1;
+                    low = mid + 1 ;
                 }
             }
         }
