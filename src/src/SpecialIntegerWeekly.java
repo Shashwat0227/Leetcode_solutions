@@ -9,5 +9,6 @@ public class SpecialIntegerWeekly {
         }
         if(num.charAt(0)!='0'|| num.charAt(0)!='5'){
         }
+   return -1;
     }
 }
