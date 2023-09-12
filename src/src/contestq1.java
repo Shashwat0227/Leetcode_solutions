@@ -18,7 +18,7 @@ public class contestq1 {
         int count = 0;
         for (int point : numLine) {
             if (point == 1) {
-                count++ ;
+                count++;
             }
         }
         return count;
