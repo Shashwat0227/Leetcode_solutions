@@ -7,7 +7,7 @@ public class intersectionoftwoarrays {
         int cursor = 0;
         for (int n : nums2) {
             if (numbers.remove(n)) {
-                res[cursor++] = n;
+                res[cursor++] =  n;
             }
         }
         return Arrays.copyOfRange(res,0,cursor);
