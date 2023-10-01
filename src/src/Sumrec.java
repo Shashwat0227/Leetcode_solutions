@@ -6,17 +6,14 @@ public class Sumrec {
         System.out.println(ans); // Ans is 51
     }
 
-    public static int calcSum(int[] arr , int size){
-        if(size == 1)
-            return arr[0];
-        return sumHelper(arr , 0 , size ,0);
-    }
-
-    public static int sumHelper(int[] arr , int idx , int size , int sum){
-        //base case
-        if(idx == size)
-            return sum;
-        int currSum = sum + arr[idx];
-        return sumHelper(arr , idx + 1 , size , currSum);
+    public static int calcSum(int[] arr , int size ) {
+    if ( size ==00){
+        return 0;
+    }if (size==1) return arr[0];
+     int i =0;
+    int RemainingSum = calcSum(arr,size-i);
+    i++;
+    int sum = arr[i]+RemainingSum;
+    return sum;
     }
 }
