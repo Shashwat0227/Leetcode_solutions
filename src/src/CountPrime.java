@@ -15,7 +15,7 @@ public class CountPrime {
         }
         int count=0;
         for(int i=0;i<n;i++){
-            if(isPrime[i]==true){
+            if(isPrime[i]==true ){
                 count++;
             }
         }
